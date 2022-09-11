@@ -1,0 +1,88 @@
+.invoice-content{
+    width: 6.2in;
+    height: 8.7in;
+    border: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family:"DejaVu Sans", sans-serif;
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf") format("truetype");
+  }
+
+.top-invoice{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-invoice{
+    display: flex;
+    justify-content: space-around;
+    min-height: 100px;
+    position: absolute;
+    min-width: 595px;
+    bottom: 0;
+    border-top: 1px solid gray;
+}
+
+.logo-invoice{
+    margin-top: 5px;
+    width: 60px;
+}
+
+.left-invoice{
+    flex: 1;
+    font-size: 8.5px;
+    padding-left: 8px;
+    font-style: italic;
+}
+
+.title-invoice{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    flex: 2;
+}
+
+.right-invoice{
+    flex: 1;
+    margin-top: 32px;
+    font-size: 25px;
+}
+
+.address-invoice{
+    margin: 0 208px;
+    font-style: italic;
+}
+
+.note{
+    position: absolute;
+    bottom: 0;
+    left: 170px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.table-invoice th, td{
+    font-size: 15px;
+  }
+
+
+.table-invoice .ant-table-tbody > tr > td {
+    white-space: break-spaces !important;
+}
+
+.invoice-content{
+    font-family: "Times New Roman"
+}
+
+.infomation-invoice p{
+    margin: 0 !important;
+}
+
+
+  

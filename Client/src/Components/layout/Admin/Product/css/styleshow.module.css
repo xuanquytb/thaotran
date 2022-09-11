@@ -1,0 +1,32 @@
+
+.cartdetailItem{
+    width: 664px;
+    height: 115px;
+    display: flex;
+    margin: 10px 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  .img-product-detail{
+    width: 110px;
+    height: 110px;
+  }
+
+  .infoProduct{
+      display: flex ;
+  }
+
+  .name-Product{
+      font-size: 15px;
+  }
+
+  .price-Product-detail-order{
+    position: relative;
+    right: 211px;
+    width: max-content;
+    top: 68px;
+  }
+
+ 

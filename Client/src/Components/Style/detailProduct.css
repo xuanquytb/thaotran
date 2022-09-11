@@ -1,0 +1,133 @@
+.detailProduct{
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.detail-more-Product{
+    width: 1115px;
+    margin: 15px 58px;
+}
+
+.itemRight{
+    width: 626px;
+    margin-left: 50px;
+}
+
+.ant-modal-content {
+    height: 630px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.nameProduct{
+    color: rgb(42, 201, 232);
+    width: 665px;
+    height: 48px;
+    font-size: 25px;
+    position: relative;
+}
+
+.reviewProduct{
+    width: 665px;
+    height: 26px;
+    font-size: 20px;
+    margin-top: 45px;
+    display: flex;
+}
+.review-Danhgia{
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid gray;
+}
+
+.price-product{
+    display: flex;
+    width: 625px;
+    height: 66px;
+    align-items: center;
+    background-color: #fafafa;
+    font-size: 20px;
+    position: relative;
+}
+
+.price-product{
+    padding: 0 35px;
+    margin-top: 25px;
+}
+.origin-price{
+    margin: 0 10px;
+    font-size: 18px;
+    color: gray;
+    text-decoration: line-through;
+}
+.price-buy{
+    margin: 0 10px;
+    font-weight: bold;
+}
+.discount{
+    margin: 0 10px;
+    font-size: 12px;
+    width: 67px;
+    height: 16px;
+    background-color: #d0011b;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.qualiti-product{
+    margin-top: 20px;
+    color: gray;
+    width: 630px;
+    height: 67px;
+}
+
+.avaliable-product{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: gray;
+    width: 630px;
+    height: 67px;
+}
+
+.policy{
+    color: gray;
+    width: 665px;
+    height: 35px;
+    margin-top: 76px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-delivery{
+    margin-left: 50px;
+}
+
+.color-product{
+    display: flex;
+}
+.color-product h3{
+   margin-right: 20px;
+
+}
+
+.qualiti-product span{
+    margin-right: 17px;
+}
+
+.title-detail{
+    height: 50px;
+    width: 1115px;
+    background-color: #fafafa;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.color-product{
+    margin-top: 10px;
+}

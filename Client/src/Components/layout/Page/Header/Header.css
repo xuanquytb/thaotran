@@ -1,0 +1,198 @@
+.header__category-detail-show{
+    content: "";
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 348.8px;
+    border-radius: 2.5px;
+    top: 38px;
+    right: -21px;
+    z-index: 15;
+    box-shadow: rgb(0 0 0 / 18%) 0px 6px 12px 0px;
+    border: 1px solid #efefef;
+    background: rgb(255, 255, 255);
+  }
+  
+.header__category-detail-show::before{
+content: "";
+display: block;
+position: absolute;
+width: 80px;
+height: 22px;
+top: -19px;
+right: -2px;
+z-index: 15;
+background: transparent;
+}
+
+
+.header__category-detail-show::after{
+content: "";
+border-style: solid;
+border-width: 13px 16px;
+position: absolute;
+top: -26px;
+right: 17px;
+border-color: transparent transparent #fff transparent;
+}
+
+.header__category:hover .header__category-detail-show{
+display: block;
+}
+
+.Header-cart-show{
+    height: 35px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.01);
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.Body-cart-show{
+    height: 273px;
+    display: grid;
+}
+
+.image-cart-empty{
+    margin: auto;
+    margin: auto 66px;
+}
+
+.Footer-cart-show{
+    height: 40px;
+    position: relative;
+
+}
+
+.btn-checkOut{
+    position: absolute;
+    right: 10px;
+}
+
+.header__cart-list-item {
+    padding-left: 0;
+    list-style: none;
+    /* set chiều cao ở đây để giới hạn khu vực hiển thị , ở đây sử dụng "vh" là đơn vị % theo màn hình bạn đang sử dụng*/
+    max-height: 56vh;
+    /* nếu mà sản phẩm vượt quá thì thay vì bth sử dụng overflow ẩn đi thì ta dùng auto nó sẽ thành scroll mà chỉ
+  chọn overflow-Y chiều y thì mới scroll */
+    overflow-y: auto;
+}
+
+
+.header__cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.header__cart-item:hover {
+    background-color: #f8f8f8;
+}
+
+.header__cart-img {
+    width: 42px;
+    height: 42px;
+    margin: 12px;
+    border: 1px solid #e8e8e8;
+}
+
+.header__cart-item-info {
+    width: 100%;
+    margin-right: 12px;
+}
+
+.header__cart-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__cart-item-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0;
+    padding-right: 16px;
+    text-align: left;
+    flex: 1;
+    /* flex 1 ở đây để cho căn phần còn lại dư thừa so với phần giá 200000x2 bên cạnh , để bên cạnh không ảnh hưởng   */
+    /* tạo quá 2 dòng thì ... */
+    line-height: 2rem;
+    /* để max-height ở đây vì số lượng dòng không cố định khu vực như tên sản phẩm mà lúc 1 lúc 2 
+  nên để max thì nó sẽ tự tăng cho phù hợp số dòng dài ngắn*/
+    max-height: 4rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.header__cart-item-price {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--primary-color-rgb);
+}
+
+.header__cart-item-multiply {
+    font-size: 0.9rem;
+    margin: 0 4px;
+    color: #757575;
+}
+
+.header__cart-item-qnt {
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.header__cart-item-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__cart-item-description {
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.header__cart-item-remove {
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+
+.header__cart-item-remove:hover {
+    color: var(--primary-color-rgb);
+    cursor: pointer;
+}
+
+.Header__mode-item-link .ant-btn{
+    box-shadow: none !important;
+}
+
+.header__head{
+    position: relative;
+}
+
+.search-result{
+    display: block;
+    width: 627px;
+    position: absolute;
+    left: -352px;
+    top: 54px;
+
+}
+
+.search__content {
+    position: absolute;
+    background-color: var(--white-color);
+    top: 39px;
+    width: 100%;
+    z-index: 20;
+    border-top: 1px solid rgb(225, 225, 225);
+    box-shadow: rgb(0 0 0 / 28%) 0px 6px 12px 0px;
+    display: none;
+  }
+  .header__search-input:focus ~ .search__content {
+    display: block;
+  }

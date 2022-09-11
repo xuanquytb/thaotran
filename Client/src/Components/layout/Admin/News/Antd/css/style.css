@@ -1,0 +1,27 @@
+.ant-table.ant-table-small .ant-table-filter-trigger {
+    width: 27px;
+    margin-right: -4px;
+}
+
+span.ant-dropdown-trigger.ant-table-filter-trigger{
+    width: 30px;
+}
+
+span.anticon.anticon-search {
+    right: 2px;
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+}
+
+.content-news{
+    position: relative;
+    min-width: 99%;
+}
+
+.content-news .ant-table-body{
+    min-height: 65vh !important;
+}
+.content-news td.ant-table-cell{
+    white-space: break-spaces;
+}

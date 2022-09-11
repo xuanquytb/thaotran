@@ -1,0 +1,68 @@
+
+#footer{
+    margin-top: 16px;
+    background-color: #fff;
+}
+.footer__container{
+    padding: 16px 0;
+    border-bottom: 1px solid rgb(235, 235, 240);
+}
+.footer__items{
+    display: flex;
+    flex-direction: column;
+}
+.footer__title{
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.hot-line a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+.hot-line a:hover{
+    text-decoration: underline;
+}
+.footer__links,
+.footer__links-title,
+.hot-line{
+    text-decoration: none;
+    color: rgb(128, 128, 137);
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.footer__links:hover{
+    text-decoration: underline;
+}
+.certification-img{
+    height: 32px;
+}
+.sub-title{
+    margin-top: 22px;
+}
+.pay{
+    width: 100%;
+    cursor: pointer;
+}
+.tiki-now{
+    width: 50%;
+}
+.download{
+    display: flex;
+}
+.download__qr{
+    height: 100px;
+}
+.download__link{
+    margin-left: 8px;
+}
+.app{
+    height: 48px;
+    margin-bottom: 6px;
+}
+.footer__address{
+    margin-top: 16px;
+}

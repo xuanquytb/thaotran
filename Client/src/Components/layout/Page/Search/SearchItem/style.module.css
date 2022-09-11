@@ -1,0 +1,49 @@
+.wapper{
+    padding: 3px 10px;
+    margin-left: 20px;
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+.wapper .box-item:hover{
+    background: rgba(27, 168, 255, 0.1);
+}
+
+.box-item{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 36px;
+    
+}
+
+.result-item{
+  margin-left: 10px;
+}
+
+.icon-search{
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+.icon-search :hover{
+    background: gray;
+}
+
+.result-item{
+    display: flex;
+    align-items: center;
+}
+    
+.result-item h4{
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.img-product{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

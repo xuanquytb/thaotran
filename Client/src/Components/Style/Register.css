@@ -1,0 +1,255 @@
+.Form-Register{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 100vh;
+    font-size:36px;
+    overflow: hidden;
+}
+
+.Form-Register input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background:rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.Form-Register input::placeholder{
+    font-size: 25px;
+    padding: 5px 15px;
+    color: #fff;
+    
+}
+
+.Form-Register .color{
+    position: absolute;
+    filter: blur(150px);
+}
+
+.Form-Register .color:nth-child(1){
+    height:800px;
+    width: 100%;
+    background-color: rgb(255, 0, 221);
+    top: -150px;
+}
+
+.Form-Register .color:nth-child(2){
+    height: 500px;
+    width: 900px;
+    background-color: rgb(0, 255, 0);
+    bottom: 4px;
+}
+
+.Form-Register .color:nth-child(3){
+    height: 300px;
+    width: 400px;
+    background-color: rgb(255, 238, 0);
+    bottom: 190px;
+    left: 0;
+}
+
+.Form-Register .color:nth-child(4){
+    height: 300px;
+    width: 400px;
+    background-color: rgb(0, 26, 255);
+    bottom: 190px;
+    right: 0;
+    
+}
+
+.Container-Register{
+    display: flex;
+    position: relative;
+    width: 1318px;
+    height: 667px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 6px 15px rgb(0 ,0 ,0 ,0.2);
+}
+
+.box{
+    position: relative;
+}
+
+.box .box-squade{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.671);
+    border-radius:20px;
+    animation: updown 10s linear infinite;
+    animation-delay:calc(1s * var(--i));
+}
+
+@keyframes updown {
+    0%,100%{
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+
+.box .box-squade:nth-child(1){
+    width: 100px;
+    height:100px;
+    top: 10px;
+    right:-28px;
+}
+
+.box .box-squade:nth-child(2){
+    width: 80px;
+    height: 80px;
+    bottom: 51px;
+    right: 751px;
+}
+
+.box .box-squade:nth-child(3){
+    width: 50px;
+    height: 50px;
+    bottom: 269px;
+    left: -75px;
+}
+
+.box .box-squade:nth-child(4){
+    width: 80px;
+    height:80px;
+    top: 121px;
+    left:-58px;
+}
+
+.form-Register{
+    display: flex;
+}
+
+.form-left{
+    position: relative;
+    background:rgba(255, 255,255,0.1);
+    height: 670px;
+    width: 606px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.form-right{
+    position: relative;
+    background:rgba(255, 255,255,0.3);
+    height: 667px;
+    width: 710px;
+    margin-top: 2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.input-Value{
+    display: contents;
+}
+
+.input-Value label{
+    display: block;
+}
+
+.input-Value input{
+    display: block;
+}
+
+.input-Password{
+    display: flex;
+}
+
+.input-Password input{
+    width: 265px;
+}
+
+.input-Password-left{
+    flex: 1;
+}
+.input-Password-right{
+    flex: 1;
+}
+
+
+.input-name{
+    display: flex;
+}
+
+.input-name input{
+    width: 265px;
+}
+
+.input-name-left{
+    flex: 1;
+}
+.input-name-right{
+    flex: 1;
+}
+
+.input-text-Value{
+    width: 584px;
+}
+
+.from-input{
+    margin-left: 76px;
+}
+
+.btn-form{
+    display: flex;
+}
+
+.more{
+    
+    font-weight: 100;
+}
+
+.more a{
+    color: #fff;
+}
+
+.btn-form{
+    margin-top: 35px;
+}
+
+.btn-regiter{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background:rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+    padding: 5px 15px;
+    background-color: #1a73e8;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 85px;
+    width: 149px;
+    height: 60px;
+}
+
+.title-Form{
+    margin: 12px 300px;
+    margin-top: 12px;
+    padding: 0;
+    font-weight: bold;
+    color: gray;
+    font-size: 26px;
+}
+
+.input-name-left span{
+    font-size: 25px;
+}
+.input-name-right span{
+    font-size: 25px;
+}
+.input-Value span{
+    font-size: 25px;
+}
+
+.image-signup{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 99%;
+    margin: 3px 2px;
+}

@@ -1,0 +1,120 @@
+.main-checkout{
+  display: flex;
+  padding: 5px 5px;
+  margin: 10px 3px;
+}
+
+.body-checkout{
+  min-width: 1155px;
+  max-height: 610px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-radius: 24px;
+  margin-right: 8px;
+}
+
+.btn-checkout{
+  min-width: 300px;
+  max-height: 190px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-checkout-Content{
+  margin: 10px 0px;
+  margin-left: 15px;
+  max-height: 593px;
+  overflow-y: auto;
+}
+
+.body-checkout-Content::-webkit-scrollbar {
+  border: none;
+}
+
+.Title-checkout{
+  font-size: 20px;
+  width: 1066px;
+  height: 36px;
+}
+
+.cartItem{
+  width: 1066px;
+  height: 175px;
+  display: flex;
+  margin: 10px 0;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.img-product{
+  width: 213px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.infoProduct{
+  width: 600px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+.btn-action{
+  width: 213px;
+  height: 200px;
+  margin-left: 20px;
+  padding-left: 146px;
+}
+
+.text-info{
+  margin: 10px;
+  padding: 5px;
+}
+
+.name-Product{
+  width: 600px;
+  height: 55px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.price-Product{
+  width: 600px;
+  height: 24px;
+  font-size: 19px;
+  color: red;
+
+}
+
+.warehouseCount-Product{
+  width: 600px;
+  height: 24px;
+  font-size: 19px;
+  color: gray;
+}
+
+.btn-action-block{
+  margin-top: 50px;
+  display: flex;
+}
+
+.btn-bin{
+  margin-top: 8px;
+  margin-left: -1px;
+}
+.sumMoney{
+  margin: 20px;
+  font-size: 22px;
+}
+
+.btn-pay{
+  width: 120px;
+  height: 40px;
+  margin-left: 170px;
+  font-size: 15px;
+  border-radius: 24px;
+}

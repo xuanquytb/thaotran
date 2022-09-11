@@ -1,0 +1,105 @@
+.main-Payment{
+    display: flex;
+    padding: 5px 5px;
+    margin: 10px 3px;
+    justify-content: center;
+}
+
+.box-left{
+    min-width: 1085px;
+    max-height: 591px;
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid gray;
+}
+
+.flex-left{
+    flex: 1;
+}
+.flex-right{
+    flex: 1;
+}
+.box-right{
+    min-width: 300px;
+    max-height: 591px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.TitlePayment{
+    width: 383px;
+    height: 53px;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+}
+
+.TitlePayment h3{
+    margin-left: 20px;
+}
+
+.itemBuy{
+    width: 347px;
+    height: 81px;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+}
+
+.detail-Order{
+    width: 383px;
+    height: 441px;
+}
+
+.itemBuy-detail{
+    display: flex;
+}
+
+.infomation{
+    padding: 0;
+    margin: 0 10px;
+    display: flex;
+}
+.infomation h3{
+    margin: 0;
+    font-size: 13px;
+    word-wrap: break-word;
+    max-height: 40px;
+    overflow-y: auto;
+}
+
+.infomation-left{
+    flex: 3;
+    width: 213px;
+}
+.infomation-right{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+
+.btn-buy{
+    width: 120px;
+    height: 40px;
+    margin-left: 239px;
+    font-size: 15px;
+    border-radius: 24px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.description-payment{
+    margin-top: 8px;
+    font-size: 20px;
+    width: 389px;
+    color: red;
+    border: 0.5px dotted green;
+    border-radius: 24px;
+    padding: 8px;
+}

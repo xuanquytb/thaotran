@@ -1,0 +1,130 @@
+.rownew {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.body-content-new{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sub__content-type-1 {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.sub__content-type-1::after {
+  content: "";
+  position: absolute;
+  height: calc(100% - 30px);
+  width: 2px;
+  left: 0;
+  top: 15px;
+  background-color: #333;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.sub__content-type-1::before {
+  content: "";
+  position: absolute;
+  height: calc(100% - 30px);
+  width: 2px;
+  left: 0;
+  top: 15px;
+  background-color: var(--white-color);
+  color: aquamarine;
+  border-radius: 10px;
+  transform: scaleY(0);
+  transition: transform 0.3s;
+  z-index: 2;
+}
+
+.sub__content-type-1:hover::before {
+  transition: transform 0.3s;
+  z-index: 2;
+  transform: scaleY(1);
+  background-color: var(--white-color);
+  color: aquamarine;
+  transform-origin: center;
+}
+
+.post:hover .intro__sub-content-author,
+.post:hover .intro__main-content-author {
+    color: var(--white-color);
+    color: aquamarine;
+    transition: color 0.3s;
+}
+
+
+.sub__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sub__content-heading {
+  font-size: 1.8rem;
+  max-width: 92%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sub__content-detail {
+  display: flex;
+}
+
+.sub__content-img {
+  height: 142px;
+  width: 230px;
+  background-size: auto;
+  padding: 3px;
+}
+
+.sub__content-type-2 {
+  display: flex;
+}
+
+.sub__content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sub__content2-heading {
+  margin-right: 30px;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sub__content-img2 {
+  height: 155px;
+  max-width: 274px;
+}
+
+.news-item{
+  width: 787px;
+  height: 153px;
+  border-bottom: 0.5px solid gray;
+}
+
+.sub__content-author{
+  font-size: 13px;
+  color: gray;
+}
+.sub__content-date{
+  font-size: 13px;
+  color: gray;
+}

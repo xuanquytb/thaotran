@@ -1,0 +1,138 @@
+DELETE http://localhost:8080/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEyODUyNTcsImV4cCI6MTY1MTM3MTY1N30.LzVxTGY0Ed4aYghp6bKE2IKYMB4COzH1YFlKURAbsqk
+#####################################
+POST http://localhost:8080/api/role
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTA0MzM0OTIsImV4cCI6MTY1MDUxOTg5Mn0.JQwF2f-W_rlQEaHcrHC8Yn51AiS9tfSLvFlfZSHpNGY
+
+{
+    "nameRole":"Customert",
+    "description":"Quyền dành cho khách hàngt"
+}
+
+
+################################
+POST http://localhost:8080/api/admin/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEzMzUxMDYsImV4cCI6MTY1MTQyMTUwNn0.5QLJGXq34g176bh99EOpBNUlvu8Nakgk1nnFCqxSQeQ
+
+{
+    "fullname":"xuanquy",
+    "sex":"Nam",
+    "email":"xuanquy@gmail.com",
+    "phone":"08683123255",
+    "address":"Tây Sơn Kiến Xương Thái Bình",
+    "username":"quochuy",
+    "password":"admin",
+    "statusLock":"1",
+    "dateOfBirth":"1999/03/23",
+    "nameRole":"Administrators"
+}
+
+################################
+POST http://localhost:8080/api/auth/register
+Content-Type: application/json
+
+{
+    "username":"employee2d",
+    "password":"admin",
+    "fullname":"employee2d",
+    "nameRole":"Administrators",
+    "email":"employe2@gmail.com",
+    "phone":"05466546d482d",
+    "address":"Kiến Xương Thái Bình"
+}
+################################
+POST http://localhost:8080/api/auth/createAdmin
+Content-Type: application/json
+
+{
+    "username":"employee2d",
+    "password":"admin",
+    "fullname":"employee2d",
+    "nameRole":"Administrators",
+    "email":"employe2@gmail.com",
+    "phone":"05466546d482d",
+    "address":"Kiến Xương Thái Bình"
+}
+################################
+POST http://localhost:8080/api/card/addCard
+Content-Type: application/json
+
+{
+    "idCustomer":"4",
+    "idMGG":"5",
+    "stateCard":"1"
+}
+################################
+PUT http://localhost:8080/api/auth/update
+Content-Type: application/json
+
+{
+    "sex":"Nữ",
+    "dateOfBirth":"1999/02/27",
+    "nameAvata":"d.jpg",
+    "username":"hainhat",
+    "password":"admin",
+    "fullname":"Đặng Thị Hải Nhật",
+    "nameRole":"Customer",
+    "email":"hainhat@gmail.com",
+    "phone":"0341654654646",
+    "address":"Tây Sơn Kiến Xương Thái Bình"
+}
+###
+PUT http://localhost:8080/api/admin/update/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE3MjE0MzUsImV4cCI6MTY1MTgwNzgzNX0.f77tpQgEP0cgQzdsQtJOVdM7cSgr_0Z7-w5NRs8Zlyw
+
+{
+    "sex":"Nữ",
+    "dateOfBirth":"1999/02/27",
+    "username":"hainhat",
+    "password":"admin",
+    "fullname":"Đặng Thị Hải Nhật",
+    "nameRole":"Customer",
+    "email":"ranvickey@gmail.com",
+    "phone":"0341654654646",
+    "address":"Tây Sơn Kiến Xương Thái Bình"
+}
+###
+DELETE http://localhost:8080/api/admin/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE3MjE0MzUsImV4cCI6MTY1MTgwNzgzNX0.f77tpQgEP0cgQzdsQtJOVdM7cSgr_0Z7-w5NRs8Zlyw
+################################
+POST http://localhost:8080/api/admin/login
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE3MjE0MzUsImV4cCI6MTY1MTgwNzgzNX0.f77tpQgEP0cgQzdsQtJOVdM7cSgr_0Z7-w5NRs8Zlyw
+
+{
+    "username":"quochuy",
+    "password":"admin"
+   
+}
+###
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"xuanquy1",
+    "password":"admin"
+   
+}
+###
+GET http://localhost:8080/api/ImageProduct/allImage
+Content-Type: application/json
+
+################################
+GET http://localhost:8080/api/Order/countOrderCus
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTQ5MTY5NzAsImV4cCI6MTY1NTAwMzM3MH0.TqCkJU3WWuvBXdVa1pnBVUfiMhfcG9KYQaas8vjwh2o
+###
+################################
+GET http://localhost:8080/api/Product/InvoiceIn/8888
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTUxNzQ3NjIsImV4cCI6MTY1NTI2MTE2Mn0.ICWlwke07RzGYuGxNQNALD5sgwY1iJ85gKf0WhExwrk
+###
+################################
+GET http://localhost:8080/api/news/getNews/1
+Content-Type: application/json
+###

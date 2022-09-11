@@ -1,0 +1,26 @@
+.ant-table.ant-table-small .ant-table-filter-trigger {
+    width: 27px;
+    margin-right: -4px;
+}
+
+span.ant-dropdown-trigger.ant-table-filter-trigger{
+    width: 30px;
+}
+
+span.anticon.anticon-search {
+    right: 2px;
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+}
+
+.content-order{
+    position: relative;
+    min-width: 99%;
+    min-height: 100vh;
+}
+.content-order .ant-table-wrapper{
+    margin-top: 0px !important;
+    position: absolute !important;
+    top: 55px !important;
+}

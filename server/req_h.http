@@ -1,0 +1,45 @@
+DELETE http://localhost:8080/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEyODUyNTcsImV4cCI6MTY1MTM3MTY1N30.LzVxTGY0Ed4aYghp6bKE2IKYMB4COzH1YFlKURAbsqk
+#######################################
+GET http://localhost:8080/api/product/allproduct
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTIxMDA4ODMsImV4cCI6MTY1MjE4NzI4M30._iRYgZdWN-l3FFNkji2lBW0BeQ8Et3fbuW-nPTQcCIk
+#########################
+DELETE http://localhost:8080/api/product/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTIxMDA4ODMsImV4cCI6MTY1MjE4NzI4M30._iRYgZdWN-l3FFNkji2lBW0BeQ8Et3fbuW-nPTQcCIk
+################################
+POST http://localhost:8080/api/product/addproduct
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTIxMDA4ODMsImV4cCI6MTY1MjE4NzI4M30._iRYgZdWN-l3FFNkji2lBW0BeQ8Et3fbuW-nPTQcCIk
+
+{
+    "nameProduct":"7",
+    "description":"1234",
+    "warranty":"hp",
+    "quantity":"a@gmail.com",
+    "promotional":"1234",
+    "status":"hp",
+    "image":"2.ing",
+    "idCategory":"a@gmail.com",
+    "idUnit":"7",
+    "idManufacturer":"1234",
+    "idOrigin":"hp"
+}
+
+###########################
+PUT http://localhost:8080/api/product/updateproduct/7
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTI3NzQ5MDMsImV4cCI6MTY1Mjg2MTMwM30.3SC_GpMhN81HKtqDaQ7462iAcla4wCxkGo3o18bNzxw
+
+{
+    "nameProduct" : "Máy sấy tóc",
+    "description" : "Đây là máy sấy",
+    "warranty" : "6",
+    "quantity" : "300",
+    "promotional" : "10",
+    "price" : "20000000",
+    "status" : "Còn hàng",
+    "nameCategory" : "Nhà cửa đời sống",
+    "nameUnit" : "Thùng",
+    "nameBrand" : "Sony",
+    "nameOrigin" : "Việt Nam"
+}

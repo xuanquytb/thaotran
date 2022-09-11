@@ -1,0 +1,298 @@
+DELETE http://localhost:8080/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEyODUyNTcsImV4cCI6MTY1MTM3MTY1N30.LzVxTGY0Ed4aYghp6bKE2IKYMB4COzH1YFlKURAbsqk
+#######################################
+GET http://localhost:8080/api/card/allCard
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjIsIm5hbWVSb2xlIjoiQ3VzdG9tZXIiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gZMOgbmggY2hvIGtow6FjaCBow6BuZyJ9LCJpYXQiOjE2NTEyODg5NjgsImV4cCI6MTY1MTM3NTM2OH0.GRDPSHCfVOpQR82OPPCTQi1smbfoQOcdTPcDW7GGEHQ
+#####################
+GET http://localhost:8080/api/category/allCategory
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+#########################
+GET http://localhost:8080/api/newsCategory/allNewsCategory
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+#########################
+GET http://localhost:8080/api/origin/allOrigin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+#########################
+GET http://localhost:8080/api/unit/allUnit
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+################################
+DELETE http://localhost:8080/api/card/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjIsIm5hbWVSb2xlIjoiQ3VzdG9tZXIiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gZMOgbmggY2hvIGtow6FjaCBow6BuZyJ9LCJpYXQiOjE2NTEyODgxNDUsImV4cCI6MTY1MTM3NDU0NX0.OmwnrJVyWVIl2lXmIbX1WFAPTIMzjoy5biEbkT1y0GQ
+##############################
+DELETE http://localhost:8080/api/category/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjIsIm5hbWVSb2xlIjoiQ3VzdG9tZXIiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gZMOgbmggY2hvIGtow6FjaCBow6BuZyJ9LCJpYXQiOjE2NTEzNDI2MzIsImV4cCI6MTY1MTQyOTAzMn0.YVKTUn6keMEwQtNHjN-h0MT09tVkCnntUwBuTaS-0UE
+################################
+DELETE http://localhost:8080/api/newsCategory/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+################################
+DELETE http://localhost:8080/api/origin/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+################################
+DELETE http://localhost:8080/api/unit/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEzNDQxMzUsImV4cCI6MTY1MTQzMDUzNX0.PBtnQZ2JbwXSsOemUb5yv1797TGnTghFCCF6pIiNiDc
+################################
+POST http://localhost:8080/api/role
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTA0MzM0OTIsImV4cCI6MTY1MDUxOTg5Mn0.JQwF2f-W_rlQEaHcrHC8Yn51AiS9tfSLvFlfZSHpNGY
+
+{
+    "nameRole":"Customert",
+    "description":"Quyền dành cho khách hàngt"
+}
+
+
+################################
+POST http://localhost:8080/api/admin/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEzMzUxMDYsImV4cCI6MTY1MTQyMTUwNn0.5QLJGXq34g176bh99EOpBNUlvu8Nakgk1nnFCqxSQeQ
+
+{
+    "fullname":"qhuy",
+    "sex":"Nam",
+    "email":"huy11@gmail.com",
+    "phone":"08683123255",
+    "address":"Tây Sơn Kiến Xương Thái Bình",
+    "username":"quochuy",
+    "password":"admin",
+    "statusLock":"1",
+    "dateOfBirth":"1999/03/23",
+    "nameRole":"Administrators"
+}
+
+################################
+POST http://localhost:8080/api/auth/register
+Content-Type: application/json
+
+{
+    "username":"client6",
+    "password":"admin",
+    "fullname":"Hồng Sơn2s",
+    "nameRole":"Customer",
+    "email":"hongsocn2@gmail.com",
+    "phone":"546546644c3523",
+    "address":"Tây Sơn Kiến Xương Thái Bình"
+}
+################################
+POST http://localhost:8080/api/card/addCard
+Content-Type: application/json
+
+{
+    "idCustomer":"4",
+    "idMGG":"5",
+    "stateCard":"1"
+}
+############
+POST http://localhost:8080/api/category/addCategory
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEzNDQxMzUsImV4cCI6MTY1MTQzMDUzNX0.PBtnQZ2JbwXSsOemUb5yv1797TGnTghFCCF6pIiNiDc
+
+{
+    "nameCategory":"Đồ điện lạnh4",
+    "image":"5",
+    "description":"1"
+}
+###########################
+POST http://localhost:8080/api/category/addNewsCategory
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+
+{
+    "nameNews":"Đồ điện lạnh4",
+    "status":"1"
+}
+###########################
+POST http://localhost:8080/api/origin/addOrigin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+
+{
+    "nameOrigin":"Vĩnh Phúc",
+    "description":"VP"
+}
+###########################
+POST http://localhost:8080/api/unit/addUnit
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEzNDQxMzUsImV4cCI6MTY1MTQzMDUzNX0.PBtnQZ2JbwXSsOemUb5yv1797TGnTghFCCF6pIiNiDc
+
+{
+    "nameUnit":"chiếc",
+    "description":"1"
+}
+###########################
+PUT http://localhost:8080/api/category/updateCategory/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE3MzM4NjMsImV4cCI6MTY1MTgyMDI2M30.dNyaxeJfupZjK5uGaairSihuakPh0u-0uqWuvEhvw1g
+
+{
+    "nameCategory":"Hàng điện tử 1",
+    "image":"4",
+    "description":"1"
+}
+################################
+PUT http://localhost:8080/api/origin/updateOrigin/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTE2NTEyMDIsImV4cCI6MTY1MTczNzYwMn0.yxCFabVMvrAcZRCTXq1yEjIwNSKfoWRkU17fQpbf7CQ
+
+{
+    "nameOrigin":"Vinh",
+    "description":"vinh"
+}
+################################
+PUT http://localhost:8080/api/unit/updateUnit/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEzNDQxMzUsImV4cCI6MTY1MTQzMDUzNX0.PBtnQZ2JbwXSsOemUb5yv1797TGnTghFCCF6pIiNiDc
+
+{
+    "nameUnit":"chiếc",
+    "description":"đơn vị tính bằng chiếc"
+}
+################################
+PUT http://localhost:8080/api/auth/update
+Content-Type: application/json
+
+{
+    "sex":"Nữ",
+    "dateOfBirth":"1999/02/27",
+    "nameAvata":"d.jpg",
+    "username":"hainhat",
+    "password":"admin",
+    "fullname":"Đặng Thị Hải Nhật",
+    "nameRole":"Customer",
+    "email":"hainhat@gmail.com",
+    "phone":"0341654654646",
+    "address":"Tây Sơn Kiến Xương Thái Bình"
+}
+################################
+PUT http://localhost:8080/api/card/update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTEzMzUxMDYsImV4cCI6MTY1MTQyMTUwNn0.5QLJGXq34g176bh99EOpBNUlvu8Nakgk1nnFCqxSQeQ
+
+{
+    "idMGG":"5"
+}
+
+
+###
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"client3",
+    "password":"admin"
+   
+}
+########
+POST http://localhost:8080/api/category
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjQwMWRlM2M2YjE0ODYwMzU1ZjhmNjYiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2NDgzNzUzNTQsImV4cCI6MTY0ODQ2MTc1NH0.g0BziTLB31MkChiQ8FEfh2LOaVzYwLx1CEA-ZpuUAbk
+
+{
+    "name":"Thiết Bị",
+    "image":"https://cf.shopee.vn/file/7abfbfee3c4844652b4a8245e473d857_tn",
+    "description":"Các Thiết Bị Điện Gia Dụng",
+    "status":"1"
+}
+
+########
+POST http://localhost:8080/api/product
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjQwMWRlM2M2YjE0ODYwMzU1ZjhmNjYiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2NDgzNzUzNTQsImV4cCI6MTY0ODQ2MTc1NH0.g0BziTLB31MkChiQ8FEfh2LOaVzYwLx1CEA-ZpuUAbk
+
+{
+    "name":"Đèn Học",
+    "idCategory": "62401d6039d6273e67e013ac",
+    "description":"Các Thiết Bị Điện Gia Dụng",
+    "image":"https://cf.shopee.vn/file/87f4beea3d91ef3a50b699aa6dbd2a7c",
+    "hide":"true",
+    "quantity": "5",
+    "price": "200000đ",
+    "status":"1"
+}
+########
+POST http://localhost:8080/api/card/addCardItem
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQ1LCJyb2xlIjp7ImlkIjoyLCJuYW1lUm9sZSI6IkN1c3RvbWVyIiwiZGVzY3JpcHRpb24iOiJRdXnhu4FuIGTDoG5oIGNobyBraMOhY2ggaMOgbmcifSwiaWRDYXJkIjo5LCJpYXQiOjE2NTMxOTEzNTcsImV4cCI6MTY1MzI3Nzc1N30.HgFi96Nk4RpEiGPIXSNZqO4bbgbyUICksdoiMMwDIEg
+
+{
+    "idCard" : "1",
+    "idProduct" : "8",
+    "idCoupon" : "",
+    "dongia" : "20000",
+    "quantity" : "2",
+}
+########
+GET http://localhost:8080/api/card/allCard
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQ1LCJyb2xlIjp7ImlkIjoyLCJuYW1lUm9sZSI6IkN1c3RvbWVyIiwiZGVzY3JpcHRpb24iOiJRdXnhu4FuIGTDoG5oIGNobyBraMOhY2ggaMOgbmcifSwiaWRDYXJkIjo5LCJpYXQiOjE2NTMxOTM4ODAsImV4cCI6MTY1MzI4MDI4MH0.UiLJajtMlXizACT7NdocKyiFLWNV3ACgC_b55HRfg2U
+
+########
+PUT http://localhost:8080/api/card/updateCardDetail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjIsIm5hbWVSb2xlIjoiQ3VzdG9tZXIiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gZMOgbmggY2hvIGtow6FjaCBow6BuZyJ9LCJpZENhcmQiOjEsImlhdCI6MTY1MzIzMjE0MiwiZXhwIjoxNjUzMzE4NTQyfQ.XcWqzepB_aKarBJOYUvlI5msdf8QTv8K623TFHprHs0
+
+{
+    "quantity" : "1",
+    "id" : "5"
+}
+########
+POST  http://localhost:8080/api/card/addCardItem
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQ1LCJyb2xlIjp7ImlkIjoyLCJuYW1lUm9sZSI6IkN1c3RvbWVyIiwiZGVzY3JpcHRpb24iOiJRdXnhu4FuIGTDoG5oIGNobyBraMOhY2ggaMOgbmcifSwiaWRDYXJkIjo5LCJpYXQiOjE2NTMyNDM4MTUsImV4cCI6MTY1MzMzMDIxNX0.QvN_sQb5bcfiQCrs_mjRWz1GsERR2KIf8W6gOu89esg
+
+{
+    "idCard" : "9",
+    "idProduct" : "11",
+    "idCoupon" : "",
+    "dongia" : "20000",
+    "quantity" : "1"
+}
+########
+DELETE http://localhost:8080/api/card/cardDetail/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjIsIm5hbWVSb2xlIjoiQ3VzdG9tZXIiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gZMOgbmggY2hvIGtow6FjaCBow6BuZyJ9LCJpZENhcmQiOjEsImlhdCI6MTY1MzIzOTkzNywiZXhwIjoxNjUzMzI2MzM3fQ.XCkvRbZnz4BtZYaHVtX2g8WH0rnQkDil4WPFEzAM0yI
+
+########
+GET http://localhost:8080/api/card/sumMoneycard
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjIsIm5hbWVSb2xlIjoiQ3VzdG9tZXIiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gZMOgbmggY2hvIGtow6FjaCBow6BuZyJ9LCJpZENhcmQiOjEsImlhdCI6MTY1MzM3MzYzOSwiZXhwIjoxNjUzNDYwMDM5fQ.YfLVmD_AyKSDDeHuRiDi4FPyuInZ537uSppJ7JZnJQA
+
+########
+GET http://localhost:8080/api/payment/allPayment
+Content-Type: application/json
+########
+GET http://localhost:8080/api/Order/allOrderCustomer
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOnsiaWQiOjIsIm5hbWVSb2xlIjoiQ3VzdG9tZXIiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gZMOgbmggY2hvIGtow6FjaCBow6BuZyJ9LCJpZENhcmQiOjEsImlhdCI6MTY1MzUzNzk0MCwiZXhwIjoxNjUzNjI0MzQwfQ.e7ceYiqQgDpTl6AiOZJM_gYErgXwduNiA1o-5l8VWPc
+
+########
+POST http://localhost:8080/api/card/allItemCardOrder
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQ1LCJyb2xlIjp7ImlkIjoyLCJuYW1lUm9sZSI6IkN1c3RvbWVyIiwiZGVzY3JpcHRpb24iOiJRdXnhu4FuIGTDoG5oIGNobyBraMOhY2ggaMOgbmcifSwiaWRDYXJkIjo5LCJpYXQiOjE2NTM1OTA4MDEsImV4cCI6MTY1MzY3NzIwMX0.Jc5SXAy0IZM7exnabMPPYbW8WvyzgkRBwWy4g5RfGLQ
+
+{
+    "idCard" : 9,
+    "idPayOrder" : 5
+}
+
+#########
+GET http://localhost:8080/api/product/Product/Máy
+Content-Type: application/json
+#########
+#########
+GET http://localhost:8080/api/Order/allSummoney
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTM4MDY1MTQsImV4cCI6MTY1Mzg5MjkxNH0.OZHiuXSrLaktIPrFHCKJVV0KK59DNtLVOeWlTkkB5iU
+#########
+#########
+POST http://localhost:8080/api/Order/allSummoney/day
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsInJvbGUiOnsiaWQiOjEsIm5hbWVSb2xlIjoiQWRtaW5pc3RyYXRvcnMiLCJkZXNjcmlwdGlvbiI6IlF1eeG7gW4gY2hvIHF14bqjbiB0cuG7iyB2acOqbiJ9LCJpYXQiOjE2NTM5MDE1MzMsImV4cCI6MTY1Mzk4NzkzM30.TC69MEZBEDN2ISXvUjWLpOh8tkLdVMVkF6uowBePq3c
+
+{
+    "day" : "2022-05-30"
+}
+#########
+GET http://localhost:8080/api/newsCategory/allNewsCategory
+Content-Type: application/json
+#########
+GET http://localhost:8080/api/product/Product/idCategory/2
+Content-Type: application/json

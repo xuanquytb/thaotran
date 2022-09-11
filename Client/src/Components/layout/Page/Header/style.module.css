@@ -1,0 +1,35 @@
+.search-title{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+
+.header__seacrh-block {
+    background-color: var(--button-color);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 11px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+.header__search-icon {
+color: var(--white-color);
+font-size: 1.6rem;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  box-shadow: rgb(98 98 98 / 50%) 0px 1px 2px 0px;
+}
+
+.form__search {
+  position: relative;
+  height: 100%;
+}
+
+.search-result{
+  overflow-y: scroll;
+}

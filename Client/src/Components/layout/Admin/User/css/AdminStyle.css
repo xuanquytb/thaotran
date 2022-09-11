@@ -1,0 +1,11 @@
+.ant-table.ant-table-small .ant-table-filter-trigger {
+    width: 27px;
+    margin-right: -4px;
+}
+
+span.anticon.anticon-search {
+    right: 2px;
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+}
